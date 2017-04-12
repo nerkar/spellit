@@ -1,0 +1,31 @@
+{
+  "name": "spellit",
+  "version": "1.0.0",
+  "description": "check spelling and get word meaning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerkar/spellit.git"
+  },
+  "keywords": [
+    "spelling",
+    "check",
+    "word",
+    "meaning"
+  ],
+  "author": "nerkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nerkar/spellit/issues"
+  },
+  "homepage": "https://github.com/nerkar/spellit#readme",
+  "dependencies": {
+    "dictionary-en-us": "^1.2.0",
+    "nspell": "^1.0.2",
+    "prompt": "^1.0.0",
+    "wordnet": "^0.1.2"
+  }
+}

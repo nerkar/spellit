@@ -5,13 +5,13 @@
 clone the repo 
 `git clone https://github.com/nerkar/spellit`
 
-cd into directory
+cd into directory  
 `cd spellit`
 
-install modules
+install modules  
 `npm i`
 
-run the app
+run the app  
 `node index`
 
 

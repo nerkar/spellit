@@ -5,10 +5,13 @@
   "main": "index.js",
   "dependencies": {
     "botbuilder": "^3.7.0",
-    "botbuilder-azure": "3.0.2"
+    "botbuilder-azure": "3.0.2",
+    "dictionary-en-us": "^1.2.0",
+    "nspell": "^1.0.2",
+    "wordnet": "^0.1.2"
   },
   "devDependencies": {
-      "restify": "^4.1.1"
+    "restify": "^4.1.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

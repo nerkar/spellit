@@ -45,7 +45,7 @@ function checkSpell(word, callback) {
     var spell = nspell(dict);
     if (spell.correct(word) === true) {
 
-      //result = 'Hey here is the meaning of word with few sentence' + lookupWord(word);
+      //result = 'Hey here is the meaning of word with few sentence usage' + lookupWord(word);
       lookupWord(word, function (meaning) {
         callback(' : ' + meaning)
       })

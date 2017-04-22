@@ -51,7 +51,7 @@ function checkSpell(word, callback) {
       })
     }
     else {
-      callback('I think there is some thing wrong in spelling -- here are few Suggestions : \n' + spell.suggest(word));
+      callback('I think there is some thing wrong in spelling -- here are few Suggestions TO look : \n' + spell.suggest(word));
     }
 
   });
